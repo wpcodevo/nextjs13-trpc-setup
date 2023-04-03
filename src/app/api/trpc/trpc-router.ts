@@ -13,6 +13,8 @@ export const appRouter = t.router({
 
 export type AppRouter = typeof appRouter;
 
+// The code below is kept here to keep things simple
+
 interface User {
   id: string;
   name: string;
@@ -34,5 +36,20 @@ const userList: User[] = [
     id: "3",
     name: "Barbie Tracy",
     email: "barbietracy@gmail.com",
+  },
+  {
+    id: "4",
+    name: "John Payday",
+    email: "johnpayday@gmail.com",
+  },
+  {
+    id: "5",
+    name: "Remember My Name",
+    email: "remembermyname@gmail.com",
+  },
+  {
+    id: "6",
+    name: "Go to School",
+    email: "gotoschool@gmail.com",
   },
 ];
